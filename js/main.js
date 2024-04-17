@@ -52,3 +52,7 @@ class Estudiante extends Persona {
 
 let persona1 = new Persona("Anna", 31);
 persona1.saludar();
+
+let estudiante1 = new Estudiante("Martin", 32, "12vo");
+estudiante1.saludar();
+estudiante1.estudiar();
