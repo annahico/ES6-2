@@ -48,8 +48,7 @@ class Estudiante extends Persona {
     }
 }
 
+/////////////////////////
 
-let persona1 = new Persona("Anna, 31");
-console.log(persona1.nombre);
-persona1.nombre = "Alice";
-console.log(persona1.nombre);
+let persona1 = new Persona("Anna", 31);
+persona1.saludar();
